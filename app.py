@@ -76,9 +76,7 @@ with st.container():
             - Created a brand new inbound lead channel with an RFP thought leadership.
             """
         )
-    with right_column:
-        st_lottie(lottie_coding, height=300, key="coding_experience")
-
+ 
 
 # ---- PROJECTS ----
 with st.container():
