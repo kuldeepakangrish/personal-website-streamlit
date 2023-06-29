@@ -30,7 +30,7 @@ img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, I am Sven :wave:")
+    st.subheader("Kuldeepak Angrish :wave:")
     st.title("A Data Analyst From Germany")
     st.write(
         "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
