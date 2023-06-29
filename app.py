@@ -76,7 +76,18 @@ with st.container():
             - Created a brand new inbound lead channel with an RFP thought leadership.
             """
         )
- 
+        st.subheader("[SoftwareAG >](https://softwareag.com)")
+        st.write("##")
+        st.write(
+            """
+            - Established hiring strategy.
+            - Led various field Marketing events from a tech/messaging perspective.
+            - Created a brand new inbound lead channel with an RFP thought leadership.
+            """
+        )
+        st.markdown("[Watch Video...](https://www.youtube.com/watch?v=Qz6qC6i2MJc&t=1212s)")
+
+
 
 # ---- PROJECTS ----
 with st.container():
