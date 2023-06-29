@@ -30,12 +30,16 @@ img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Kuldeepak Angrish :wave:")
-    st.title("A Data Analyst From Germany")
+    st.subheader("Kuldeepak Angrish")
+    st.title("Sales Engineering Leader")
     st.write(
-        "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
-    )
-    st.write("[Learn More >](https://pythonandvba.com)")
+        "Seasoned Solution Engineering leader helping enterprises with API adoption, automation, Big Data, IoT, and Cloud Technologies.
+Built-   Managed-Mentored NAM West pre-sales team.
+Guided Guided deals from the technical front while collaborating with sales leadership to formally define
+sales process & qualify opportunities.
+TrailbTrailblazer for SwAG’s cloud transformation & adoption journey Won many firsts (iPaas Deal, IoT deal NAM West, Cloud deal)
+Well-versed in positioning, presenting and articulating solutions from technical & business perspective to a variety of audiences from developers to C level.    )
+    st.write("[Learn More >](https://www.linkedin.com/in/kuldeepakangrish/)")
 
 # ---- WHAT I DO ----
 with st.container():
