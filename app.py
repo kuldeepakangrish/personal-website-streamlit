@@ -67,7 +67,7 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header("WORK EXPERIENCE")
-        st.subheader("[RapidAPIl >](https://rapidapi.com.com)")
+        #st.subheader("[RapidAPI >](https://rapidapi.com.com)")
         st.write("##")
         st.write(
             """
