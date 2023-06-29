@@ -33,11 +33,11 @@ with st.container():
     st.subheader("Kuldeepak Angrish")
     st.title("Sales Engineering Leader")
     st.write(
-        "Seasoned Solution Engineering leader helping enterprises with API adoption, automation, Big Data, IoT, and Cloud Technologies.
-        Built-Managed-Mentored NAM West pre-sales team.
-        Guided deals from the technical front while collaborating with sales leadership to formally define sales process & qualify opportunities.
-        Trailblazer for SwAG’s cloud transformation & adoption journey Won many firsts -iPaas Deal, IoT deal NAM West, Cloud deal.
-        Well-versed in positioning, presenting and articulating solutions from technical & business perspectives to a variety of audiences from developers to C level.)"
+        "Seasoned Solution Engineering leader helping enterprises with API adoption, automation, Big Data, IoT, and Cloud Technologies."
+        "Built-Managed-Mentored NAM West pre-sales team."
+        "Guided deals from the technical front while collaborating with sales leadership to formally define sales process & qualify opportunities."
+        "Trailblazer for SwAG’s cloud transformation & adoption journey Won many firsts -iPaas Deal, IoT deal NAM West, Cloud deal."
+        "Well-versed in positioning, presenting and articulating solutions from technical & business perspectives to a variety of audiences from developers to C level."
     )
     st.write("[Learn More >](https://www.linkedin.com/in/kuldeepakangrish/)")
 
