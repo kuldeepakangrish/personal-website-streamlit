@@ -59,9 +59,9 @@ with st.container():
         )
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
-        st_lottie(lottie_coding, height=300, key="coding")
+        st_lottie(lottie_coding, height=300, key="coding_achievements")
 
-# ---- Work Experience ----
+# ---- WORK EXPERIENCE ----
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
@@ -76,9 +76,8 @@ with st.container():
             - Created a brand new inbound lead channel with an RFP thought leadership.
             """
         )
-        #st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
-        st_lottie(lottie_coding, height=300, key="coding")
+        st_lottie(lottie_coding, height=300, key="coding_experience")
 
 
 # ---- PROJECTS ----
@@ -99,6 +98,7 @@ with st.container():
             """
         )
         st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")
+
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
