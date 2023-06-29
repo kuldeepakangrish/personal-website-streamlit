@@ -5,7 +5,7 @@ from PIL import Image
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Kuldeepak Resume", page_icon=":tada:", layout="wide")
 
 
 def load_lottieurl(url):
@@ -41,24 +41,20 @@ with st.container():
         - Well-versed in positioning, presenting and articulating solutions from technical & business perspectives to a variety of audiences from developers to C level.
     """
     )
-    st.write("[Learn More >](https://www.linkedin.com/in/kuldeepakangrish/)")
+    st.write("[LinkedIn >](https://www.linkedin.com/in/kuldeepakangrish/)")
 
 # ---- WHAT I DO ----
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("What I do")
+        st.header("ACHIEVEMENTS")
         st.write("##")
         st.write(
             """
-            On my YouTube channel I am creating tutorials for people who:
-            - are looking for a way to leverage the power of Python in their day-to-day work.
-            - are struggling with repetitive tasks in Excel and are looking for a way to use Python and VBA.
-            - want to learn Data Analysis & Data Science to perform meaningful and impactful analyses.
-            - are working with Excel and found themselves thinking - "there has to be a better way."
-
-            If this sounds interesting to you, consider subscribing and turning on the notifications, so you don’t miss any content.
+            - Led Team with > 150% Quota for 2019 & 2020
+            - #1 Pre-Sales with 435% Quota in 2016
+            - Consistently achieved >100%
             """
         )
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
