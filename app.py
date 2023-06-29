@@ -67,7 +67,7 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header("WORK EXPERIENCE")
-        #st.subheader("[RapidAPI >](https://rapidapi.com.com)")
+        st.subheader("[RapidAPI >](https://rapidapi.com)")
         st.write("##")
         st.write(
             """
@@ -76,7 +76,7 @@ with st.container():
             - Created a brand new inbound lead channel with an RFP thought leadership.
             """
         )
-        st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
+        #st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
