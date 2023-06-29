@@ -43,7 +43,7 @@ with st.container():
     )
     st.write("[LinkedIn >](https://www.linkedin.com/in/kuldeepakangrish/)")
 
-# ---- WHAT I DO ----
+# ---- ACHIEVEMENTS ----
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
@@ -60,6 +60,26 @@ with st.container():
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
+
+# ---- Work Experience ----
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("WORK EXPERIENCE")
+        st.subheader("[RapidAPIl >](https://rapidapi.com.com)")
+        st.write("##")
+        st.write(
+            """
+            - Established hiring strategy.
+            - Led various field Marketing events from a tech/messaging perspective.
+            - Created a brand new inbound lead channel with an RFP thought leadership.
+            """
+        )
+        st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
+    with right_column:
+        st_lottie(lottie_coding, height=300, key="coding")
+
 
 # ---- PROJECTS ----
 with st.container():
