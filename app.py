@@ -65,7 +65,7 @@ with st.container():
         st.markdown("[iDevnews.com: Integration Developer News - Cloud Architecture Summit](https://www.idevnews.com/registration?event_id=521&code=ws_calendar)")        
         st.markdown('<iframe width="200" height="100" src="https://www.youtube.com/embed/HNk293pQTHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',unsafe_allow_html=True)
 
-        st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
+        
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding_achievements")
 
