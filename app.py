@@ -58,10 +58,14 @@ with st.container():
             """
         )
         st.markdown("[Infosys Blog Practitioner’s View: What Does it Mean to Integrate a Multinational Corporation, Technically](https://app.box.com/s/xgoiub4nj9vsrpojyl2vgbeb00hys9oq)")    
-        
-            #LinkedIn Live: Building Modern Foundations for Cloud Innovation
-            #YouTube: Driving Innovation and Disruption in a Time of Accelerated Change
-            #LinkedIn: RFP or Not to RFP
+        st.markdown("[LinkedIn Live: Building Modern Foundations for Cloud Innovation](https://www.linkedin.com/video/live/urn:li:ugcPost:6877321443001065473/)")    
+        st.markdown("[YouTube: Driving Innovation and Disruption in a Time of Accelerated Change](https://www.youtube.com/watch?t=1212&v=Qz6qC6i2MJc&feature=youtu.be)")    
+        st.markdown("[LinkedIn: RFP or Not to RFP](https://www.linkedin.com/pulse/rfp-kuldeepak-angrish/)")    
+        st.markdown("[SoftwareAG.com: Improving customer satisfaction using webMethods.io](https://www.softwareag.com/en_corporate/customers/customer-stories/webmethods-customer-satisfaction-story.html)")    
+        st.markdown("[iDevnews.com: Integration Developer News - Cloud Architecture Summit](https://www.idevnews.com/registration?event_id=521&code=ws_calendar)")    
+
+            
+            #
             #SoftwareAG.com: Improving customer satisfaction using webMethods.io
             #iDevnews.com: Integration Developer News - Cloud Architecture Summit (idevnews.com)
         
