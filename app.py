@@ -48,7 +48,7 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("ACHIEVEMENTS")
+        st.header("ACHIEVEMENTS & THOUGHT LEADERSHIP")
         st.write("##")
         st.write(
             """
@@ -57,6 +57,15 @@ with st.container():
             - Consistently achieved >100%
             """
         )
+        st.markdown("[Infosys Blog Practitioner’s View: What Does it Mean to Integrate a Multinational Corporation, Technically](https://app.box.com/s/xgoiub4nj9vsrpojyl2vgbeb00hys9oq)")    
+        
+            #LinkedIn Live: Building Modern Foundations for Cloud Innovation
+            #YouTube: Driving Innovation and Disruption in a Time of Accelerated Change
+            #LinkedIn: RFP or Not to RFP
+            #SoftwareAG.com: Improving customer satisfaction using webMethods.io
+            #iDevnews.com: Integration Developer News - Cloud Architecture Summit (idevnews.com)
+        
+        
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding_achievements")
@@ -67,7 +76,7 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header("WORK EXPERIENCE")
-        st.subheader("[RapidAPI >](https://rapidapi.com)")
+        st.subheader("[RapidAPI](https://rapidapi.com)")
         st.write("##")
         st.write(
             """
@@ -76,7 +85,7 @@ with st.container():
             - Created a brand new inbound lead channel with an RFP thought leadership.
             """
         )
-        st.subheader("[SoftwareAG >](https://softwareag.com)")
+        st.subheader("[SoftwareAG](https://softwareag.com)")
         st.write("##")
         st.write(
             """
@@ -96,7 +105,7 @@ with st.container():
             """
         )
         st.markdown("[Watch Video...](https://www.youtube.com/watch?v=Qz6qC6i2MJc&t=1212s)")
-        st.subheader("[Flex >](https://flex.com)")
+        st.subheader("[Flex](https://flex.com)")
         st.write("##")
         st.write(
             """
@@ -112,7 +121,7 @@ with st.container():
             """
         )
 
-        st.subheader("[Infoys >](https://infosys.com)")
+        st.subheader("[Infosys](https://infosys.com)")
         st.write("##")
         st.write(
             """
