@@ -34,18 +34,19 @@ with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_kuldeepak_portrait)
-    st.subheader("Kuldeepak Angrish")
-    st.title("Sales Engineering Leader")
-    st.write(
+    with text_column:
+        st.subheader("Kuldeepak Angrish")
+        st.title("Sales Engineering Leader")
+        st.write(
+            """
+            - Seasoned Solution Engineering leader helping enterprises with API adoption, automation, Big Data, IoT, and Cloud Technologies.
+            - Built-Managed-Mentored NAM West pre-sales team.
+            - Guided deals from the technical front while collaborating with sales leadership to formally define sales process & qualify opportunities.
+            - Trailblazer for SwAG’s cloud transformation & adoption journey Won many firsts -iPaas Deal, IoT deal NAM West, Cloud deal.
+            - Well-versed in positioning, presenting and articulating solutions from technical & business perspectives to a variety of audiences from developers to C level.
         """
-        - Seasoned Solution Engineering leader helping enterprises with API adoption, automation, Big Data, IoT, and Cloud Technologies.
-        - Built-Managed-Mentored NAM West pre-sales team.
-        - Guided deals from the technical front while collaborating with sales leadership to formally define sales process & qualify opportunities.
-        - Trailblazer for SwAG’s cloud transformation & adoption journey Won many firsts -iPaas Deal, IoT deal NAM West, Cloud deal.
-        - Well-versed in positioning, presenting and articulating solutions from technical & business perspectives to a variety of audiences from developers to C level.
-    """
-    )
-    st.write("[LinkedIn >](https://www.linkedin.com/in/kuldeepakangrish/)")
+        )
+        st.write("[LinkedIn >](https://www.linkedin.com/in/kuldeepakangrish/)")
 
 # ---- ACHIEVEMENTS ----
 with st.container():
