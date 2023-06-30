@@ -96,7 +96,36 @@ with st.container():
             """
         )
         st.markdown("[Watch Video...](https://www.youtube.com/watch?v=Qz6qC6i2MJc&t=1212s)")
+        st.subheader("[Flex >](https://flex.com)")
+        st.write("##")
+        st.write(
+            """
+            Built a global team of solution managers to ensure customers are seamlessly on-boarded. We added 60+(and 200+ suppliers) partners resulting in 25% revenue growth.
+            """
+        )
+        st.write(
+            """
+            Key Accomplishments:
+            - Designed and implemented a self-service partner onboarding framework. Reduced ~28 days onboarding process to 5 days.
+            - Led one of the manufacturing sites to go live on a robust modern platform for Cisco. Won Cisco’s Supplier Appreciation Award.
+            - Helped Flex achieve stringent peak time SLA for supply chain communication with Apple.
+            """
+        )
 
+        st.subheader("[Infoys >](https://infosys.com)")
+        st.write("##")
+        st.write(
+            """
+            Led many customer engagements for smooth delivery of transformational projects @fortune 500 companies.
+            """
+        )
+        st.write(
+            """
+            Key Accomplishments:
+            - Re Architected aps.com to bring down the response time within 2ms SLA, improving customer experience and drop in support engagement.
+            - Helped Toshiba Europe to tightly integrate siloed applications with a 66% reduction in maintenance costs
+            """
+        )
 
 
 # ---- PROJECTS ----
