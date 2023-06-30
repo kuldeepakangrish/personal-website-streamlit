@@ -27,9 +27,13 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 img_contact_form = Image.open("images/yt_contact_form.png")
 img_lottie_animation = Image.open("images/yt_lottie_animation.png")
+img_kuldeepak_portrait = Image.open("images/KuldeepakAngrish.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_kuldeepak_portrait)
     st.subheader("Kuldeepak Angrish")
     st.title("Sales Engineering Leader")
     st.write(
