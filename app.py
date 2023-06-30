@@ -35,8 +35,8 @@ with st.container():
     with image_column:
         st.image(img_kuldeepak_portrait)
     with text_column:
-        st.subheader("Kuldeepak Angrish")
-        st.title("Sales Engineering Leader")
+        st.title("Kuldeepak Angrish")
+        st.subheader("Sales Engineering Leader")
         st.write(
             """
             - Seasoned Solution Engineering leader helping enterprises with API adoption, automation, Big Data, IoT, and Cloud Technologies.
