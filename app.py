@@ -31,7 +31,7 @@ img_kuldeepak_portrait = Image.open("images/KuldeepakAngrish.jpeg")
 
 # ---- HEADER SECTION ----
 with st.container():
-    image_column, text_column = st.columns((1, 2))
+    text_column, image_column = st.columns((1, 2))
     with image_column:
         st.image(img_kuldeepak_portrait)
     with text_column:
