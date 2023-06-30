@@ -87,6 +87,14 @@ with st.container():
             - Instrumental in getting key net new logos like Google, Chevron, Adobe.
             """
         )
+        st.write(
+            """
+            Key Accomplishments:
+            - Proposed Google’s supply chain group how to handle 10x of their traffic to address seasonality and growing hardware business.
+            - Implemented modular solutions that reduced 3M's SAP rollout time and saved them millions of dollars, reduced time to plant-level inventory visibility by 50%.
+            - Revolutionized Chevron's downstream operations by streamlining lead synchronization and reducing wait times from days to minutes.
+            """
+        )
         st.markdown("[Watch Video...](https://www.youtube.com/watch?v=Qz6qC6i2MJc&t=1212s)")
 
 
