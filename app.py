@@ -51,17 +51,11 @@ with st.container():
 # ---- ACHIEVEMENTS ----
 with st.container():
     st.write("---")
+    st.header("ACHIEVEMENTS & THOUGHT LEADERSHIP")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("ACHIEVEMENTS & THOUGHT LEADERSHIP")
-        st.write("##")
-        st.write(
-            """
-            - Led Team with > 150% Quota for 2019 & 2020
-            - #1 Pre-Sales with 435% Quota in 2016
-            - Consistently achieved >100%
-            """
-        )
+        #st.header("ACHIEVEMENTS & THOUGHT LEADERSHIP")
+        
         st.markdown("[Infosys Blog Practitioner’s View: What Does it Mean to Integrate a Multinational Corporation, Technically](https://app.box.com/s/xgoiub4nj9vsrpojyl2vgbeb00hys9oq)")    
         st.markdown("[LinkedIn Live: Building Modern Foundations for Cloud Innovation](https://www.linkedin.com/video/live/urn:li:ugcPost:6877321443001065473/)")    
         st.markdown("[YouTube: Driving Innovation and Disruption in a Time of Accelerated Change](https://www.youtube.com/watch?t=1212&v=Qz6qC6i2MJc&feature=youtu.be)")    
@@ -72,7 +66,15 @@ with st.container():
 
         
     with right_column:
-        st_lottie(lottie_coding, height=300, key="coding_achievements")
+        #st_lottie(lottie_coding, height=300, key="coding_achievements")
+        st.write("##")
+        st.write(
+            """
+            - Led Team with > 150% Quota for 2019 & 2020
+            - #1 Pre-Sales with 435% Quota in 2016
+            - Consistently achieved >100%
+            """
+        )
 
 # ---- WORK EXPERIENCE ----
 with st.container():
