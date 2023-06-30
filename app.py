@@ -63,7 +63,7 @@ with st.container():
         st.markdown("[LinkedIn: RFP or Not to RFP](https://www.linkedin.com/pulse/rfp-kuldeepak-angrish/)")    
         st.markdown("[SoftwareAG.com: Improving customer satisfaction using webMethods.io](https://www.softwareag.com/en_corporate/customers/customer-stories/webmethods-customer-satisfaction-story.html)")    
         st.markdown("[iDevnews.com: Integration Developer News - Cloud Architecture Summit](https://www.idevnews.com/registration?event_id=521&code=ws_calendar)")        
-        st.markdown('<iframe width="560" height="315" src="https://www.youtube.com/embed/HNk293pQTHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',unsafe_allow_html=True)
+        st.markdown('<iframe width="200" height="100" src="https://www.youtube.com/embed/HNk293pQTHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',unsafe_allow_html=True)
 
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
